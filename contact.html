@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Project | Contact</title>
+    <style>
+      fieldset {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <h1>Spice Delight Restaurant</h1>
+      <p>Authentic Indian Food Since 2000</p>
+    </header>
+    <hr />
+    <nav>
+      <a href="./index.html">Home</a> | <a href="./menu.html">Menu</a> |
+      <a href="./contact.html">Contact</a>
+      | <a href="#footer">Footer</a>
+    </nav>
+    <hr />
+    <main>
+      <section>
+        <h2>Contact Us</h2>
+        <address>
+          Spice Delight Restaurant<br />
+          MG Road, Delhi<br />
+          Phone:9876543210
+        </address>
+      </section>
+      <section>
+        <h3>Opening Hours</h3>
+        <ol>
+          <li>Monday - Friday: 10AM - 10PM</li>
+          <li>Saturday - Sunday: 9AM - 11PM</li>
+        </ol>
+      </section>
+      <br /><br /><br />
+      <section>
+        <form>
+          <fieldset>
+            <legend>Your Message</legend>
+            <div>
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+                minlength="10"
+                maxlength="30"
+              />
+            </div>
+            <div>
+              <label for="email">Your Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div>
+              <textarea cols="30" rows="5" placeholder="Suggestions"></textarea>
+            </div>
+            <div>
+              <button type="reset">Reset</button>
+              <button type="submit">Submit</button>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <hr />
+    <footer id="footer">
+      <p>Copyright 2025, All right reserved.</p>
+      <a href="#header">Back to Top</a>
+    </footer>
+  </body>
+</html>
